@@ -6,6 +6,8 @@ from nltk.corpus import stopwords
 import pymongo
 from pymongo import MongoClient
 from spellchecker import SpellChecker
+import pymongo
+from pymongo import MongoClient
 
 CONSUMER_KEY = 'osDCxy9STdyR9ImpAt9GQNN5c'
 CONSUMER_SECRET = 'W5VxgaTzZro9aUMYTj9WMny5IBpDaZEWZ7jngw806N1ndpTLDd'
