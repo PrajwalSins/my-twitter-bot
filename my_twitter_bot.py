@@ -9,10 +9,10 @@ from spellchecker import SpellChecker
 import pymongo
 from pymongo import MongoClient
 
-CONSUMER_KEY = 'osDCxy9STdyR9ImpAt9GQNN5c'
-CONSUMER_SECRET = 'W5VxgaTzZro9aUMYTj9WMny5IBpDaZEWZ7jngw806N1ndpTLDd'
-ACCESS_KEY = '1087023067589570565-lnSoT1rKcYQ8Ba4CJBjp2MX02kh5q5'
-ACCESS_SECRET = 'CCzzFlPHrbNYjGgb00WsekI9ehT9fZupJNnu0OFrMNo5k'
+CONSUMER_KEY = 'your key'
+CONSUMER_SECRET = 'your secret key'
+ACCESS_KEY = 'your access key'
+ACCESS_SECRET = 'your access secret'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
